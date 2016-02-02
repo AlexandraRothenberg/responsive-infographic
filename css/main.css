@@ -21,6 +21,16 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin:0;
+}
+
 .st0 {
   opacity: 0.5;
   fill: #6dcff6;
@@ -61,8 +71,13 @@ html {
 }
 
 svg {
-  width: 25%;
+  width: 200px;
   height: auto;
+  position: relative;
+}
+
+svg:hover {
+  opacity: 0;
 }
 
 h1 {
@@ -70,6 +85,22 @@ h1 {
   color: #fff;
   font-family: sans-serif;
   background-color: #00aeef;
-  padding: 0;
+  padding: 2rem;
   margin: 0;
+}
+
+figcaption {
+  color:#00aeef;
+  text-align: center;
+  padding: .5rem;
+  position: absolute;
+  /*opacity: 0;*/
+}
+
+/*figcaption:hover {
+  opacity: 100%;
+}*/
+
+p {
+  color: #000;
 }
