@@ -13,8 +13,6 @@ html {
   
   background-color: #def2f9;
   font-family: sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
 *, *::before, *::after {
@@ -28,7 +26,7 @@ html {
 
 body {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 .st0 {
@@ -73,7 +71,6 @@ body {
 svg {
   width: 200px;
   height: auto;
-  position: relative;
 }
 
 svg:hover {
@@ -87,6 +84,16 @@ h1 {
   background-color: #00aeef;
   padding: 2rem;
   margin: 0;
+  position: fixed;
+  display: block;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  z-index: 500;
 }
 
 figcaption {
@@ -94,12 +101,8 @@ figcaption {
   text-align: center;
   padding: .5rem;
   position: absolute;
-  /*opacity: 0;*/
+  top: 0;
 }
-
-/*figcaption:hover {
-  opacity: 100%;
-}*/
 
 p {
   color: #000;
