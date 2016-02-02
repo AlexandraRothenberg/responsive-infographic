@@ -17,40 +17,40 @@ html {
 }
 
 .st0 {
-  opacity:0.5;
-  fill: #6DCFF6;
+  opacity: 0.5;
+  fill: #6dcff6;
 }
 
-	.st1 {
-    opacity:0.5;
-  }
+.st1 {
+  opacity: 0.5;
+}
 
-	.st2 {
-    fill: #00AEEF;
-    stroke: #00AEEF;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
-  }
+.st2 {
+  fill: #00aeef;
+  stroke: #00aeef;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
-	.st3 {
-    fill: none;
-    stroke: #00AEEF;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
-  }
+.st3 {
+  fill: none;
+  stroke: #00aeef;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
-	.st4 {
-    fill: #FFFFFF;
-  }
+.st4 {
+  fill: #fff;
+}
 
-	.st5 {
-    font-family: 'MyriadPro-Regular';
-  }
+.st5 {
+  font-family: "MyriadPro-Regular";
+}
 
-	.st6 {
-    font-size: 75.4976px;
-  }
+.st6 {
+  font-size: 75.4976px;
+}
