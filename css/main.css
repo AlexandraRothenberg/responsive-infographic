@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  
   background-color: #def2f9;
   font-family: sans-serif;
 }
@@ -85,7 +84,17 @@ h1 {
   padding: 2rem;
   margin: 0;
   position: fixed;
-  display: block;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 3rem;
+  margin: 0;
   top: 0;
   z-index: 10000;
   width: 100%;
@@ -96,14 +105,19 @@ figure {
   z-index: 500;
 }
 
+figure:hover {
+  opacity: 0;
+}
+
 figcaption {
-  color:#00aeef;
+  color: #00aeef;
   text-align: center;
   padding: .5rem;
   position: absolute;
   top: 0;
 }
 
-p {
+figcaption p {
   color: #000;
+  width: 250px;
 }
