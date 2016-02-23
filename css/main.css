@@ -88,16 +88,15 @@ h1 {
 }
 
 .header0 {
-  color: #fff;
+  color: #def2f9;
   font-family: sans-serif;
-  padding: 3rem;
+  padding: 2.7rem;
   margin: 0;
   top: 0;
   width: 100%;
 }
 
 figure {
-  position: relative;
   z-index: 500;
   width: 250px;
   padding: 2rem;
@@ -115,3 +114,9 @@ figcaption p {
   color: #000;
 }
 
+@media only screen and (min-width: 250px) {
+  
+  figure {
+    display: inline-block;
+  }
+}
