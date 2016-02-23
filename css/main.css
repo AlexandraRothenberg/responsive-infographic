@@ -101,6 +101,7 @@ figure {
   width: 250px;
   padding: 2rem;
   margin: 0;
+  vertical-align: top;
 }
 
 figcaption {
@@ -116,7 +117,12 @@ figcaption p {
 
 @media only screen and (min-width: 250px) {
   
+  .box{
+    top: 0;
+  }
+  
   figure {
     display: inline-block;
+    
   }
 }
